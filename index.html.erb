@@ -112,12 +112,53 @@
 				  color: gray;
 				}
 
+								/* Medium screens */
+				@media all and (max-width: 800px) {
+				  .flex-grid {
+				    justify-content: space-around;
+				  }
+				    main h1 {
+				    font-size: 400%;
+
+				  }
+				}
+
+				/* Small screens */
+				@media all and (max-width: 775px) {
+				  .flex-grid {
+				    flex-direction: column;
+				  }
+				  .sign-up {
+				    margin: 0%;
+				    width: 100%;
+				  }
+
+				  main h1 {
+				    font-size: 200%;
+
+				  }
+
+				  .flex-grid h2 {
+				    font-size: 110%%;
+				  }
+
+				  div {
+				    text-align: center;
+				  }
+
+				  footer {
+				    height: 80px;
+				  }
+				  
+				}
+
 		</style>
   </head>
   <body>
   	<div class="flex-grid">
       <div>
-			  <h1>A little story...</h1>
+			  <h2>Samantha Harris, Junior Web Developer.</h2>
+			  	<h3>A little story...</h3>
 			</div>
 		</div>
     <div class="flex-grid">
@@ -185,8 +226,8 @@
         <div class="media">
           <div class="media-body center">
             <h4> On the side, my passion:</h4>
-            <p> We will be meeting in the hotel bar for drinks before dinner... Gettign ready to surprise the bride</p>
-            <p></p>
+            <p>I have always had a interest in people and behaviour, hence the degree in Neuroscience. My interest in the relationship between the brain and the mind.</p>
+            <p>Otherwise, the usual culprits: food, dancing, countryside, my pug 'Gaston', my cat 'Harry' and rugby.</p>
           </div>
         </div>
       </div>
