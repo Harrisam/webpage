@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrisam.me</title>
+    <style type="text/css">
+			body {
+				background-image:url("/background.png");
+				font-family: 'Share Tech Mono', sans-serif;
+				display: flex;
+			  flex-direction: column;
+			  min-height: 100vh;
+			  color: black;
+			  }
+
+			  h2 {
+			  color: grey;
+			  font-family: 'ABeeZee', sans-serif;
+				}
+
+				main {
+				  flex: 1;
+				  padding: 3%;
+				  margin-top: 80px;  
+
+				}
+
+				main h1 {
+				  height: 100%;
+				  margin: 5% 4% 3% -4%;
+				  padding: 0% 3% 3% 3%;
+				  line-height: 100%;
+				  font-size: 380%;
+				  font-weight: 800;
+				  letter-spacing: 0.1em;
+				  text-shadow: 1px 1px 1px #444;
+				  text-align: center;
+
+				}
+
+				.col-lg-9 {
+				  background-color: white;
+				  padding: 0 5%;
+				  width: 100%;
+				  border-radius: 10px;
+				  background-color: rgba(255,255,255,0.7);
+				}
+				.flex-grid {
+				  display: flex;
+				}
+
+				.flex-grid > div {
+				  flex: 1;
+				  margin: 0 3% 3% 0;
+				  padding: 3% 2%;
+				  color: gray;
+				  border: 2px lightgray;
+				  border-radius: 10px;
+				  font-family: 'ABeeZee', sans-serif;
+				  background-color: rgba(255,255,255,0.8);
+				  
+				}
+
+				.flex-grid > div:last-child {
+				  margin-right: 0;
+				}
+
+				.flex-grid h2 {
+				  margin: -3% -3% 3% -3%;
+				  padding: 2% 2%;
+				  font-size: 150%;
+				  text-align: center;
+				  font-weight: 300;
+				  font-family: 'ABeeZee', sans-serif;
+				  letter-spacing: .1em;
+				  border-bottom: 2px dotted gray;
+				}
+
+				.flex-grid li {
+				  position: relative;
+				  margin: 0 0 2%;
+				  padding: 0 0 0 2%;
+				}
+
+				.flex-grid li:before {
+				  content: '\f00c';
+				  font: normal 100%;
+				  font-family: 'ABeeZee', sans-serif;
+				  top: 0;
+				  left: 0;
+				  color: #5b5;
+				}
+
+				.chart div {
+				  font: 90% sans-serif;
+				  display: float;
+				  background-color: #B31D7E;
+				  text-align: right;
+				  padding: 0;
+				  padding-right: 0.2%;
+				  margin: 0.5%;
+				  color: white;
+				}
+
+				.chart p {
+				  font: 100% sans-serif;
+				  text-align: left;
+				  padding: 0;
+				  margin: 0;
+				  color: gray;
+				}
+
+								/* Medium screens */
+				@media all and (max-width: 800px) {
+				  .flex-grid {
+				    justify-content: space-around;
+				  }
+				    main h1 {
+				    font-size: 400%;
+
+				  }
+				}
+
+				/* Small screens */
+				@media all and (max-width: 775px) {
+				  .flex-grid {
+				    flex-direction: column;
+				  }
+				  .sign-up {
+				    margin: 0%;
+				    width: 100%;
+				  }
+
+				  main h1 {
+				    font-size: 200%;
+
+				  }
+
+				  .flex-grid h2 {
+				    font-size: 110%%;
+				  }
+
+				  div {
+				    text-align: center;
+				  }
+
+				  footer {
+				    height: 80px;
+				  }
+				  
+				}
+
+		</style>
+  </head>
+  <body>
+  	<div class="flex-grid">
+      <div>
+			  <h2>Samantha Harris, Junior Web Developer.</h2>
+			  	<h3>A little story...</h3>
+			</div>
+		</div>
+    <div class="flex-grid">
+      <div class='chart transbox'>
+        <h2>Github</h2></br>
+          <strong>To see my code, please checkout: </strong></br>
+          </br>
+          <a href="https://github.com/Harrisam/">My Github account</a>
+      </div>
+      <div class='chart transbox'>
+        <h2>Linkedin</h2></br>
+          <strong>Here is the linkedin account: </strong></br>
+	        </br>
+		      </br>
+          <a href="http://uk.linkedin.com/in/samsharris/">Linkedin/samsharris</a>
+      </div>
+      <div class='chart transbox'>
+        <h2>Blog</h2></br>
+          <strong>If you fancy reading about my journey at Makers Academy</strong></br>
+	        </br>
+          <a href="http://harrisbecomesamaker.blogspot.co.uk/">Harrisbecomesamaker</a>
+
+
+      </div>
+       <div class='chart transbox'>
+        <h2>Keep in touch</h2></br>
+          <address>
+            <strong>Sam Harris</strong><br>
+	          </br>
+		        </br>
+            <a href="mailto:#">sam@harrisam.me</a>
+          </address>
+      </div>
+    </div>
+
+    <div class="flex-grid">
+      <div>
+        <h2>My decision to move to programming... </h2>
+        <div class="media">
+          <div class="media-body">
+              <h4 class="media-heading">...following a career in finance.</h4>
+              <p>After her degree in Neuroscience, Sam spent the next 7 yrs in Financial Services. After deciding that a career change was desperately needed, she spent time considering what was out there and came across programming.</p>
+              <p> After playing around for a while decided that it ticked far too many boxes not to apply to Makers Academy. Having successfully completed the course, she is now looking for a creative team where she can continue developing her skills whilst working on awesome projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-grid">
+      <div>
+        <h2>My professional background... </h2>
+        <div class="media">
+          <div class="media-body center">
+            <h4> 8 years of work in Private Wealth </h4>
+            <p>After university, I fell into Private Trust work where I first came accross IT in industry. Follow this, I helped my father set up his business in Jersey. Here, I was responsible for most things, including the branding and web presence.</p>
+            <p>I then moved to London where I continued in marketing for an ETF and EIS fund manager.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-grid">
+      <div>
+        <h2>And my personal background </h2>
+        <div class="media">
+          <div class="media-body center">
+            <h4> On the side, my passion:</h4>
+            <p>I have always had a interest in people and behaviour, hence the degree in Neuroscience. My interest in the relationship between the brain and the mind.</p>
+            <p>Otherwise, the usual culprits: food, dancing, countryside, my pug 'Gaston', my cat 'Harry' and rugby.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>  
+
+</html>
